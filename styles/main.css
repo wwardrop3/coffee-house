@@ -1,0 +1,18 @@
+.shop {
+    flex-basis: 25%;
+    border: 1px dashed black;
+    padding: .5em;
+    text-align: left; /* Center align the text in the boxes */
+}
+
+.list {
+    flex-basis: 25%;  /* Make each child element the same width */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pageHeader {
+    text-align: center;
+    margin: 10px;
+}
